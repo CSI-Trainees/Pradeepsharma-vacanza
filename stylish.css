@@ -1,0 +1,19 @@
+<style>
+.button {
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  left: 40%;
+  position:absolute;
+  top: 50%;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color:white ;}
+.button2 {background-color:white;} 
+</style>
