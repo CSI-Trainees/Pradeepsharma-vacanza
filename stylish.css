@@ -17,3 +17,15 @@
 .button1 {background-color:white ;}
 .button2 {background-color:white;} 
 </style>
+.m{
+  position: absolute;
+  top: 0%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  length:60%;
+  width:60%;
+  text-align: center;
+  z-index: 1;
+  opacity: 0.85;
+  position:relative;
+}
