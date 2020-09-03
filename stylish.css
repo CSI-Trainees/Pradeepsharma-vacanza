@@ -20,7 +20,7 @@ header{
 height: 91vh;
 width:100%; 
 background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("Images/background.jpeg");
- position: relative ;/background-position: center;/
+ position: relative ;background-position: center;
 background-repeat: no-repeat;
 background-size: cover;
 background-attachment: fixed;
@@ -101,3 +101,47 @@ background-attachment: fixed;
   background-color: #043806;
   color: white;
 }
+footer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: #00695c;
+  height: 10rem;
+  position:relative;
+  overflow: hidden;
+}
+footer .f{
+  height: 100%;
+  width: 100%;
+  background-blend-mode: color;
+  background-image:linear-gradient(to bottom, #00695c, #00695c), url(Images/footer.png);
+  background-size:cover;
+  position:absolute;
+  animation: scale 10s infinite;
+}
+@keyframes scale{
+  0%{
+      transform: scale(1);
+  }
+  50%{
+      transform: scale(2);
+  }
+  100%{
+    transform:scale(1);
+  }
+}
+.fi {
+  left:50%;
+  display: flex;/* to arrange them in colomn wise*/
+  padding:4rem 1rem 1rem 1rem;
+  align-items: center;
+  margin: 0rem 0rem 4rem 4rem;
+  z-index: 10;
+  border-bottom: 1px dotted #fff; }
+      
+ .s {
+      margin:0 1rem; }
+.si {
+      width: 3rem;
+      height: 3rem;
+     }
